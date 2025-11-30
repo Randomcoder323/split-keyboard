@@ -1,18 +1,72 @@
 # split-keyboard
 
-# Bom Pictures
-<img width="1156" height="1016" alt="aliexpresschckout" src="https://github.com/user-attachments/assets/a7216e85-e3c4-4025-9b94-48cd087e0fd6" />
-<img width="875" height="359" alt="AmazonCheckout" src="https://github.com/user-attachments/assets/46847c0f-1112-40de-a3b1-d17806abef1c" />
-<img width="1868" height="815" alt="Amazoncart (2)" src="https://github.com/user-attachments/assets/e86bc8bd-41bc-407f-845e-c98c0e90ec3a" />
-<img width="514" height="450" alt="pcbcheckout" src="https://github.com/user-attachments/assets/c5a6e582-a9c2-4788-9228-2239e6b84864" />
+## Intro
+Hello! This is my third blueprint project. After finishing the LED chaser and Hackpad, I wanted something more challenging. So I chose a keyboard. If you want to access my journals, here is the link:
 
-# CAD
+[My Blueprint Journals](https://blueprint.hackclub.com/projects/1863)
 
-<img width="1154" height="531" alt="Screenshot 2025-11-28 201418" src="https://github.com/user-attachments/assets/a1cd830a-5d6b-48c7-aa6e-6934b35e3724" />
-<img width="1098" height="645" alt="Screenshot 2025-11-28 124114" src="https://github.com/user-attachments/assets/7914ff96-f85c-4123-9c90-ed33a988cc42" />
+---
 
-# PCB +schematics
+## BOM Pictures
 
-<img width="1188" height="558" alt="Screenshot 2025-11-28 140757" src="https://github.com/user-attachments/assets/d82cf64a-4b94-41e4-a403-5263ab2827a1" />
-<img width="1813" height="879" alt="Screenshot 2025-11-27 192149" src="https://github.com/user-attachments/assets/df437af6-7778-4a91-9e6e-0bd5b93cf108" />
-<img width="1458" height="629" alt="Screenshot 2025-11-27 143831" src="https://github.com/user-attachments/assets/694513b3-b0b7-4441-8390-8cbde8fec1d9" />
+<p align="center">
+  <img width="800" src="https://github.com/user-attachments/assets/a7216e85-e3c4-4025-9b94-48cd087e0fd6" alt="aliexpress checkout"/>
+</p>
+
+<p align="center">
+  <img width="700" src="https://github.com/user-attachments/assets/46847c0f-1112-40de-a3b1-d17806abef1c" alt="Amazon Checkout"/>
+</p>
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/e86bc8bd-41bc-407f-845e-c98c0e90ec3a" alt="Amazon cart"/>
+</p>
+
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/c5a6e582-a9c2-4788-9228-2239e6b84864" alt="PCB checkout"/>
+</p>
+
+---
+
+## CAD
+
+<p align="center">
+  <img width="800" src="https://github.com/user-attachments/assets/a1cd830a-5d6b-48c7-aa6e-6934b35e3724" alt="CAD screenshot 1"/>
+</p>
+
+<p align="center">
+  <img width="750" src="https://github.com/user-attachments/assets/7914ff96-f85c-4123-9c90-ed33a988cc42" alt="CAD screenshot 2"/>
+</p>
+
+---
+
+## PCB + Schematics
+
+<p align="center">
+  <img width="850" src="https://github.com/user-attachments/assets/d82cf64a-4b94-41e4-a403-5263ab2827a1" alt="PCB screenshot 1"/>
+</p>
+
+<p align="center">
+  <img width="950" src="https://github.com/user-attachments/assets/df437af6-7778-4a91-9e6e-0bd5b93cf108" alt="PCB screenshot 2"/>
+</p>
+
+<p align="center">
+  <img width="800" src="https://github.com/user-attachments/assets/694513b3-b0b7-4441-8390-8cbde8fec1d9" alt="PCB screenshot 3"/>
+</p>
+
+---
+
+## BOM Table
+
+| Part                  | Cost (USD) | Notes                                           |
+|-----------------------|------------|------------------------------------------------|
+| PCB                   | 28.89      | See screenshot in readme                       |
+| Seed Studio XIAO x2   | 16.61      | 11.31 + 5.3 shipping, screenshots from AliExpress |
+| Keycaps               | 22.48      | 13.99 + 9 shipping + 1.5 taxes                |
+| Switches              | 24.49      | 14.99 from Amazon + 6.25 from AliExpress      |
+| Diodes                | 0.99       | Shipping is free                               |
+| Battery x2            | 7.04       | Shipping is free                               |
+| 3D printed parts      | 0          | Printing yourself                              |
+| Resistors             | 0.50       | Shipping is free                               |
+| **TOTAL**             | ~100       | USD                                            |
+
+---
