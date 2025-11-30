@@ -57,6 +57,8 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
 
 ## BOM Table
 
+*to optimize cost and lower it i had to get 10 keyswitches fro aliexpress and rest from amazon to avoid payingg fro 70pc.
+
 | Part                  | Cost (USD) | Notes                                           |
 |-----------------------|------------|------------------------------------------------|
 | PCB                   | 28.89      | See screenshot in readme                       |
