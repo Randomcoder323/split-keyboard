@@ -1,0 +1,33 @@
+/dts-v1/;
+
+/ {
+    compatible = "zmk,keyboard";
+
+    chosen {
+        zmk,keymap = &keymap;
+    };
+
+    ps2 {
+        /* none */
+    };
+
+    key_matrix: matrix {
+        compatible = "zmk,matrix";
+        rows = <5>;
+        cols = <5>;
+        col-gpios = <
+            &gpio0 2 GPIO_ACTIVE_LOW
+            &gpio0 3 GPIO_ACTIVE_LOW
+            &gpio0 28 GPIO_ACTIVE_LOW
+            &gpio0 29 GPIO_ACTIVE_LOW
+            &gpio0 4 GPIO_ACTIVE_LOW
+        >;
+        row-gpios = <
+            &gpio1 15 GPIO_ACTIVE_LOW
+            &gpio1 14 GPIO_ACTIVE_LOW
+            &gpio1 13 GPIO_ACTIVE_LOW
+            &gpio1 12 GPIO_ACTIVE_LOW
+            &gpio0 5 GPIO_ACTIVE_LOW
+        >;
+    };
+};
