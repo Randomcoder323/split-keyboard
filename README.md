@@ -67,7 +67,7 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
 | Switches              | 24.49      | 14.99 from Amazon + 6.25 from AliExpress      |
 | Diodes                | 0.99       | Shipping is free                               |
 | Battery x2            | 7.04       | Shipping is free                               |
-| 3D printed parts      | 0          | Printing yourself                              |
+| 3D printed parts      | 0          | shipped with another project                              |
 | Resistors             | 0.50       | Shipping is free                               |
 | **TOTAL**             | ~100       | USD                                            |
 
