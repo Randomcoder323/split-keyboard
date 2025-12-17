@@ -59,16 +59,17 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
 
 *to optimize cost and lower it i had to get 10 keyswitches fro aliexpress and rest from amazon to avoid payingg fro 70pc.
 
-| Part                  | Cost (USD) | Notes                                           |
-|-----------------------|------------|------------------------------------------------|
-| PCB                   | 21.24      | See screenshot in readme                       |
-| Seed Studio XIAO x2   | 16.61      | 11.31 + 5.3 shipping, screenshots from AliExpress |
-| Keycaps               | 22.48      | 13.99 + 9 shipping + 1.5 taxes                |
-| Switches              | 24.49      | 14.99 from Amazon + 6.25 from AliExpress      |
-| Diodes                | 0.99       | Shipping is free                               |
-| Battery x2            | 7.04       | Shipping is free                               |
-| 3D printed parts      | 0          | shipped with another project                              |
-| Resistors             | 0.50       | Shipping is free                               |
-| **TOTAL**             | ~100       | USD                                            |
+| Component            | Cost (USD)      | Notes                                                   |
+|----------------------|----------------|---------------------------------------------------------|
+| PCB                  | 21.24          | See screenshot in README                                 |
+| Seeed Studio XIAO x2 | 13.50          | 13.50, free shipping; screenshots from AliExpress       |
+| Keycaps              | 19.95          | 19.50, free shipping; from AliExpress                  |
+| Switches             | 30.39          | 14.99 from Amazon + 7.88 shipping, 7.51 from AliExpress |
+| Diodes               | 0.99           | Free shipping                                           |
+| Battery x2           | 7.04           | Free shipping                                           |
+| 3D printed parts     | 0.00           | Shipped with another project                            |
+| Resistors            | 3.60           | Three types, no shipping                                |
+| Pins for MCU         | 0.96           | For the microcontroller                                 |
+| **Total**            | **97.67**      |                                                         |
 
 ---
