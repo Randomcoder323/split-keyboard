@@ -9,26 +9,24 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
 
 ## BOM Pictures
 
-<p align="center">
-  <img width="800" src="https://github.com/user-attachments/assets/a7216e85-e3c4-4025-9b94-48cd087e0fd6" alt="aliexpress checkout"/>
-</p>
+<img width="577" height="914" alt="image" src="https://github.com/user-attachments/assets/57ba3c77-ba67-470b-9ab6-d7b261df2b14" />
 
-<p align="center">
-  <img width="700" src="https://github.com/user-attachments/assets/46847c0f-1112-40de-a3b1-d17806abef1c" alt="Amazon Checkout"/>
-</p>
+<img width="1908" height="544" alt="image" src="https://github.com/user-attachments/assets/fa15bf9f-777f-4170-bfaf-93989338ac2e" />
 
-<p align="center">
-  <img width="900" src="https://github.com/user-attachments/assets/e86bc8bd-41bc-407f-845e-c98c0e90ec3a" alt="Amazon cart"/>
-</p>
-
+<img width="1884" height="629" alt="image" src="https://github.com/user-attachments/assets/4e6fdd18-7ae3-4a92-9560-25e297c171c3" />
 
 
 <img width="1915" height="1020" alt="image" src="https://github.com/user-attachments/assets/1d2c20f6-a738-476f-b306-5c42bbfd6c45" />
 
+<img width="1906" height="1017" alt="image" src="https://github.com/user-attachments/assets/b18dc4a0-6a19-4a2c-952b-84b34e9e3997" />
 
 ---
 
 ## CAD
+
+<img width="1318" height="593" alt="Screenshot 2025-12-16 202712" src="https://github.com/user-attachments/assets/baab2103-275c-4b3b-8fc0-1f97f7355aa7" />
+
+
 
 <p align="center">
   <img width="800" src="https://github.com/user-attachments/assets/a1cd830a-5d6b-48c7-aa6e-6934b35e3724" alt="CAD screenshot 1"/>
@@ -37,6 +35,7 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
 <p align="center">
   <img width="750" src="https://github.com/user-attachments/assets/7914ff96-f85c-4123-9c90-ed33a988cc42" alt="CAD screenshot 2"/>
 </p>
+
 
 ---
 
@@ -62,7 +61,7 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
 
 | Part                  | Cost (USD) | Notes                                           |
 |-----------------------|------------|------------------------------------------------|
-| PCB                   | 28.89      | See screenshot in readme                       |
+| PCB                   | 21.24      | See screenshot in readme                       |
 | Seed Studio XIAO x2   | 16.61      | 11.31 + 5.3 shipping, screenshots from AliExpress |
 | Keycaps               | 22.48      | 13.99 + 9 shipping + 1.5 taxes                |
 | Switches              | 24.49      | 14.99 from Amazon + 6.25 from AliExpress      |
