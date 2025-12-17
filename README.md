@@ -16,8 +16,6 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
 
 
 
-https://github.com/user-attachments/assets/f8a41362-a0ff-46d1-938a-c02102c1d9eb
-
 
 
 
