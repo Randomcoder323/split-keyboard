@@ -21,9 +21,10 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
   <img width="900" src="https://github.com/user-attachments/assets/e86bc8bd-41bc-407f-845e-c98c0e90ec3a" alt="Amazon cart"/>
 </p>
 
-<p align="center">
-  <img width="500" src="https://github.com/user-attachments/assets/c5a6e582-a9c2-4788-9228-2239e6b84864" alt="PCB checkout"/>
-</p>
+
+
+<img width="1915" height="1020" alt="image" src="https://github.com/user-attachments/assets/1d2c20f6-a738-476f-b306-5c42bbfd6c45" />
+
 
 ---
 
