@@ -75,12 +75,12 @@ https://github.com/user-attachments/assets/b1c73c75-90e0-4224-99fa-895c186426c0
 | PCB                  | 21.24          | See screenshot in README                                 |
 | Seeed Studio XIAO x2 | 13.50          | 13.50, free shipping; screenshots from AliExpress       |
 | Keycaps              | 19.95          | 19.50, free shipping; from AliExpress                  |
-| Switches             | 30.39          | 14.99 from Amazon + 7.88 shipping, 7.51 from AliExpress |
+| Switches             | 25.38          | 9.99 from Amazon + 7.88 shipping, 7.51 from AliExpress |
 | Diodes               | 0.99           | Free shipping                                           |
 | Battery x2           | 7.04           | Free shipping                                           |
 | 3D printed parts     | 0.00           | Shipped with another project                            |
 | Resistors            | 3.60           | Three types, no shipping                                |
 | Pins for MCU         | 0.96           | For the microcontroller                                 |
-| **Total**            | **97.67**      |                                                         |
+| **Total**            | **92.66**      |                                                         |
 
 ---
