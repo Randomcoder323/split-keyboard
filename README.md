@@ -9,10 +9,10 @@ Hello! This is my third blueprint project. After finishing the LED chaser and Ha
 
 ## BOM Pictures
 
-<img width="577" height="914" alt="image" src="https://github.com/user-attachments/assets/57ba3c77-ba67-470b-9ab6-d7b261df2b14" />
+<img width="1453" height="859" alt="image" src="https://github.com/user-attachments/assets/e29977fe-e570-4d07-a27a-ef2534a30296" />
 
-<img width="1908" height="544" alt="image" src="https://github.com/user-attachments/assets/fa15bf9f-777f-4170-bfaf-93989338ac2e" />
-
+<img width="1471" height="957" alt="image" src="https://github.com/user-attachments/assets/e1c78956-ba63-417a-94b3-5e8fd305a24a" />
+<img width="1916" height="962" alt="image" src="https://github.com/user-attachments/assets/05c86041-0e8b-4b8f-8f0c-e886ed26857e" />
 
 
 
