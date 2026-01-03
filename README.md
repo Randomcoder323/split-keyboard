@@ -24,7 +24,6 @@ https://github.com/user-attachments/assets/b1c73c75-90e0-4224-99fa-895c186426c0
 
 
 
-<img width="1884" height="629" alt="image" src="https://github.com/user-attachments/assets/4e6fdd18-7ae3-4a92-9560-25e297c171c3" />
 
 
 <img width="1915" height="1020" alt="image" src="https://github.com/user-attachments/assets/1d2c20f6-a738-476f-b306-5c42bbfd6c45" />
