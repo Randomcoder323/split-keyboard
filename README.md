@@ -70,17 +70,18 @@ https://github.com/user-attachments/assets/b1c73c75-90e0-4224-99fa-895c186426c0
 
 *to optimize cost and lower it i had to get 10 keyswitches fro aliexpress and rest from amazon to avoid payingg fro 70pc.
 
-| Component            | Cost (USD)      | Notes                                                   |
-|----------------------|----------------|---------------------------------------------------------|
-| PCB                  | 21.24          | See screenshot in README                                 |
-| Seeed Studio XIAO x2 | 13.50          | 13.50, free shipping; screenshots from AliExpress       |
-| Keycaps              | 19.95          | 19.50, free shipping; from AliExpress                  |
-| Switches             | 25.38          | 9.99 from Amazon + 7.88 shipping, 7.51 from AliExpress |
-| Diodes               | 0.99           | Free shipping                                           |
-| Battery x2           | 7.04           | Free shipping                                           |
-| 3D printed parts     | 0.00           | Shipped with another project                            |
-| Resistors            | 3.60           | Three types, no shipping                                |
-| Pins for MCU         | 0.96           | For the microcontroller                                 |
-| **Total**            | **92.66**      |                                                         |
+| Component | Cost (USD) | Link | Notes |
+|---------|-----------|------|------|
+| PCB | 21.24 | https://jlcpcb.com | See screenshot in README |
+| Seeed Studio XIAO x2 | 19.69 | https://www.aliexpress.us/item/3256808140543257.html | Free shipping; screenshots from AliExpress |
+| Keycaps | 14.32 | https://www.aliexpress.us/item/3256809092009723.html | Free shipping |
+| Switches | 26.26 | https://www.aliexpress.us/item/3256806440445666.html | Amazon + AliExpress |
+| Amazon link for above |  | https://www.amazon.com/gp/product/B0FCYKV41M |  |
+| Diodes | 0.99 | https://www.aliexpress.us/item/3256805857667344.html | Free shipping |
+| Battery | 5.86 | https://www.aliexpress.us/item/3256808925051634.html | Free shipping |
+| 3D printed parts | 0.00 | N/A | Shipped with another project |
+| Resistors | 3.60 | https://www.aliexpress.us/item/3256806851785003.html | Three types, no shipping |
+| Pins for MCU | 2.06 | https://www.aliexpress.us/item/2255800687544049.html | For the microcontroller |
+| **Total** | **94.02** |  |  |
 
 ---
