@@ -1,0 +1,102 @@
+import time
+import board
+import digitalio
+import usb_hid
+
+try:
+    led_r = digitalio.DigitalInOut(board.LED_RED)
+    led_g = digitalio.DigitalInOut(board.LED_GREEN)
+    led_b = digitalio.DigitalInOut(board.LED_BLUE)
+    for led in (led_r, led_g, led_b):
+        led.direction = digitalio.Direction.OUTPUT
+        led.value = True
+
+    def set_color(r, g, b):
+        led_r.value = not r
+        led_g.value = not g
+        led_b.value = not b
+except Exception:
+    def set_color(r, g, b): pass
+
+set_color(True, True, False)
+
+def emergency_flash(err=""):
+    print(err)
+    while True:
+        set_color(True, False, False)
+        time.sleep(0.1)
+        set_color(True, True, True)
+        time.sleep(0.1)
+
+try:
+    from adafruit_hid.keyboard import Keyboard
+    from adafruit_hid.keycode import Keycode
+    from adafruit_ble import BLERadio
+    from adafruit_ble.advertising.standard import ProvideServicesAdvertisement
+    from adafruit_ble.services.standard.hid import HIDService
+    from adafruit_ble.services.standard.device_info import DeviceInfoService
+    
+    hid_service = HIDService()
+    device_info = DeviceInfoService(software_revision="1.0", manufacturer="Adafruit")
+    advertisement = ProvideServicesAdvertisement(hid_service)
+    advertisement.appearance = 961
+    ble = BLERadio()
+    ble.name = "My Raw Keyboard" 
+    
+    keyboard = Keyboard(hid_service.devices)
+    ble.start_advertising(advertisement)
+except Exception as e:
+    emergency_flash("Initialization Error")
+
+set_color(False, True, False)
+
+col_pins = (board.D0, board.D1, board.D2, board.D3, board.D4)
+row_pins = (board.D10, board.D9, board.D8, board.D7, board.D5)
+
+cols = []
+for p in col_pins:
+    pin = digitalio.DigitalInOut(p)
+    pin.direction = digitalio.Direction.OUTPUT
+    pin.value = False
+    cols.append(pin)
+
+rows = []
+for p in row_pins:
+    pin = digitalio.DigitalInOut(p)
+    pin.direction = digitalio.Direction.INPUT
+    pin.pull = digitalio.Pull.DOWN
+    rows.append(pin)
+
+keymap = [
+    [Keycode.ESCAPE, Keycode.ONE, Keycode.TWO, Keycode.THREE, Keycode.FOUR],
+    [Keycode.TAB, Keycode.Q, Keycode.W, Keycode.E, Keycode.R],
+    [Keycode.CAPS_LOCK, Keycode.A, Keycode.S, Keycode.D, Keycode.F],
+    [Keycode.LEFT_SHIFT, Keycode.Z, Keycode.X, Keycode.C, Keycode.V],
+    [Keycode.LEFT_CONTROL, Keycode.LEFT_GUI, Keycode.LEFT_ALT, Keycode.SPACE, Keycode.B],
+]
+
+def scan_matrix():
+    pressed = []
+    for c_idx, c_pin in enumerate(cols):
+        c_pin.value = True
+        for r_idx, r_pin in enumerate(rows):
+            if r_pin.value:
+                pressed.append((r_idx, c_idx))
+        c_pin.value = False
+    return pressed
+
+last_pressed = set()
+
+while True:
+    current_pressed = set(scan_matrix())
+    
+    for r, c in current_pressed - last_pressed:
+        if r < len(keymap) and c < len(keymap[r]):
+            keyboard.press(keymap[r][c])
+            
+    for r, c in last_pressed - current_pressed:
+        if r < len(keymap) and c < len(keymap[r]):
+            keyboard.release(keymap[r][c])
+            
+    last_pressed = current_pressed
+    time.sleep(0.01)
