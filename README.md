@@ -1,5 +1,19 @@
 # split-keyboard
 
+
+## Build!
+This project was very fin to build, I had a few obstacles with the code and soldering, especially the battery. But in the end I finished and got it to work. Some keys don't fully work, but I really like how this turned out!
+
+![IMG_0613](https://github.com/user-attachments/assets/3afa8d3e-920e-44c6-beab-a6577a70a475)
+![IMG_0617](https://github.com/user-attachments/assets/427e05b4-b6e7-452b-bf27-6f43867d1f74)
+![IMG_0612](https://github.com/user-attachments/assets/b8435b60-2553-46ab-a46d-8363793249b4)
+![IMG_0611](https://github.com/user-attachments/assets/b2ea1953-5002-4221-ae4d-5ab46052e24a)
+![IMG_0612 (1)](https://github.com/user-attachments/assets/45abd1ac-35f5-4943-b29e-c78728ff3f2c)
+![IMG_0611 (1)](https://github.com/user-attachments/assets/10a89c18-54a4-40ca-9a63-552fdf134e53)
+
+
+
+
 ## Intro
 Hello! This is my third blueprint project. After finishing the LED chaser and Hackpad, I wanted something more challenging. So I chose a keyboard. If you want to access my journals, here is the link:
 
